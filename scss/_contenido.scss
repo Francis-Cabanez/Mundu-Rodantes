@@ -1,0 +1,29 @@
+$fondoBody: url(../assets/img/fondo2.jpg);
+$colorPrimario: #e8e6a7;
+
+body{
+	background-image: $fondoBody;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+ }
+
+
+.imga1{
+	width: 25%;
+
+}
+
+.text-center{
+	background-color: $colorPrimario;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-left: 20px;
+
+}
+
+
+.row{
+	justify-content: center;
+}
