@@ -1,14 +1,17 @@
 $fondoBody: url(../assets/img/fondo2.jpg);
 $colorPrimario: #e8e6a7;
+$colorForm:  #a8b3ab;
+$colorBanner: #dbfffe;
+$fontPrimaria: 'Fredoka', sans-serif;
 
 body{
 	background-image: $fondoBody;
-
+	font-family: $fontPrimaria;
 	background-size: cover;
 	background-repeat: no-repeat;
  }
 
-
+/*----------------Pag_1-------------*/
 .imga1{
 	width: 25%;
 
@@ -26,4 +29,36 @@ body{
 
 .row{
 	justify-content: center;
+}
+
+/*------------------Pag_2------------------------*/
+
+.post2{
+  padding-bottom: 20px;
+  padding-top: 20px;
+ }
+
+ .textPost2{
+
+ 	margin-top: 110px;
+ }
+
+/*-----------------pag_3----------------*/
+
+
+.banner{
+	background-color: $colorBanner;
+	font-family: $fontPrimaria;
+ }
+
+
+ /*--------------pag_5---------*/
+
+
+ .form{
+
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: $colorForm;
+
 }

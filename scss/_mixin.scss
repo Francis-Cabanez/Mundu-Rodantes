@@ -1,0 +1,10 @@
+@mixin bgcolorYmargin($bgcolor,$marginB){
+	
+	background-color:$bgcolor;
+	margin-bottom:$marginB;
+}
+
+.card1, .card2, .card3{
+	
+	@include bgcolorYmargin(#e9e9e9,10px);
+}

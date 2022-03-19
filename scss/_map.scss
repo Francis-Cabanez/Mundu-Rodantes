@@ -1,0 +1,13 @@
+$estilos:(
+
+	marginB: 20px,
+  	marginL: 50px,
+  	widthImg: 250px,
+);
+
+.imgb1, .imgb2, .imgb3{
+	
+	margin-bottom:map-get($estilos,marginB);
+	margin-left:map-get($estilos,marginL);
+	width:map-get($estilos,widthImg)
+}

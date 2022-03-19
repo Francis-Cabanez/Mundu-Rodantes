@@ -1,0 +1,13 @@
+.boton{
+	
+	background-color:black;
+	border:2px solid grey;
+	font-size:15px
+}
+
+.boton-enviar{
+	@extend .boton;
+}
+.boton-reset{
+	@extend .boton;
+}
