@@ -34,13 +34,15 @@ body{
 /*------------------Pag_2------------------------*/
 
 .post2{
-  padding-bottom: 20px;
+  padding-bottom: 60px;
   padding-top: 20px;
  }
 
  .textPost2{
 
- 	margin-top: 110px;
+ 	margin-top: 50px;
+ 	margin-right:50px;
+ 	margin-left:50px;
  }
 
 /*-----------------pag_3----------------*/
@@ -62,3 +64,12 @@ body{
 	background-color: $colorForm;
 
 }
+
+.media {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+  }
